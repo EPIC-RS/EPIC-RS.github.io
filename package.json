@@ -23,9 +23,7 @@
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "generate-thumbnails": "node src/scripts/generateThumbnails.js",
-    "prebuild": "npm run generate-thumbnails"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
