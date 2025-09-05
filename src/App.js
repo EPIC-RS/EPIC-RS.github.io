@@ -8,6 +8,7 @@ import Sidebar from './components/Sidebar.js'
 // Sections
 import About from './sections/About'
 import Interests from './sections/Interests'
+import Gallery from './sections/Gallery.js';
 import Contact from './sections/Contact'
 
 // node v24.2.0
@@ -15,6 +16,7 @@ import Contact from './sections/Contact'
 const sections = [
   { id: 'about', title: 'About Me', component: About },
   { id: 'interests', title: 'Interests', component: Interests },
+  { id: 'gallery', title: 'Gallery', component: Gallery },
   { id: 'contact', title: 'Contact', component: Contact }
 ];
 
